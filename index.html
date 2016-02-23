@@ -9,6 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/app.css" media="screen">
   </head>
   <body>
@@ -17,11 +18,13 @@
 
     </header>
 
-    <h1>hello</h1>
-<h2>world</h2>
+    <h1 class="wow bounceInUp" data-wow-offset="5"  data-wow-iteration="5">hello</h1>
+    <h2 class="wow bounceInUp" data-wow-offset="10"  data-wow-iteration="10">world</h2>
 
 
     <!-- Scripts Section -->
+    <script src="js/wow.min.js"></script>
+    <script src="js/app.js"></script>
     <script type="text/javascript">
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
       document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
