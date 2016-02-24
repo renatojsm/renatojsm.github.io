@@ -1,4 +1,30 @@
-body{
-  background: grey;
-  color: red;
+
+
+.section{
+  position: relative;
+  width: 100vh;
+  height: 100vh;
+  background-image: url();
+  background-size: cover;
+  background-position: center center;
+
+}
+
+.boder{
+  border-color: white;
+  border-style: solid;
+  border-width: 60px
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+h1,p{
+  display: block;
+  text-align: center;
 }
