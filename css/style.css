@@ -32,7 +32,8 @@
 
 }
 
-h1,p{
+h1,h3,p{
   display: block;
   text-align: center;
+  color: white;
 }
