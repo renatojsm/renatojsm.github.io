@@ -1,4 +1,6 @@
-
+*{
+  box-sizing: border-box;
+}
 
 .section{
   position: relative;
@@ -36,4 +38,3 @@ h1,h3,p{
   display: block;
   text-align: center;
   color: white;
-}
