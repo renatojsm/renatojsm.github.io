@@ -1,6 +1,4 @@
-$( document ).ready(function() {
-  
-  //Init Wow Animation
-  new WOW().init();
 
+$('.banner').each(function(){
+   $('.banner').addClass('is-visible');
 });
